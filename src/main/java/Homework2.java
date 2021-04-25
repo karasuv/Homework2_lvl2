@@ -52,13 +52,10 @@ public class Homework2 {
                 catch (NumberFormatException e) {
                     String message;
                     message="невозможно преобозобавть данные (" + arr[i][j] +  ") в ячейке: (" + (i+1) +" , "+ (j+1)+")";
-//                   // System.out.println("невозможно преобозобавть данные  " + arr[i][j] +  " в ячейке: " + (i+1) +" , "+ (j+1));
+
                     throw new MyArrayDataException(message);
-//
                }
-
             }
-
         }
         return sum;
     }
